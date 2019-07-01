@@ -73,14 +73,14 @@ Description:  comgt is a scripting language interpreter useful for establishing
  and 3G datacards.
 
 Package: docker-binary-x86_64
-Version: 18.06.3-ce-1
-Depends: libc, libssp, librt, libpthread, ca-certificates, kmod-veth, ip-full
+Version: 18.06.3-ce-4
+Depends: libc, libssp, librt, libpthread, ca-certificates, kmod-veth, ip-full, libdevmapper, libltdl, iptables-mod-extra, kmod-br-netfilter, kmod-ebtables, kmod-ebtables-ipv4, kmod-ebtables-ipv6, kmod-ebtables-watchers, kmod-ip6tables-extra, kmod-ipt-checksum, kmod-ipt-cluster, kmod-ipt-clusterip, kmod-ipt-conntrack-extra, kmod-ipt-conntrack-label, kmod-ipt-extra, kmod-ipt-filter, kmod-ipt-hashlimit, kmod-ipt-ipopt, kmod-ipt-iprange, kmod-ipt-ipsec, kmod-ipt-ipset, kmod-ipt-led, kmod-ipt-nat-extra, kmod-ipt-nat6, kmod-ipt-nflog, kmod-ipt-nfqueue, kmod-ipt-raw, kmod-ipt-raw6, kmod-ipt-rpfilter, kmod-ipt-tproxy, kmod-ipt-u32, kmod-ipt-ulog, kmod-iptunnel, kmod-nf-conntrack-netlink, kmod-nf-nat6, kmod-nf-nathelper, kmod-nf-nathelper-extra, kmod-nfnetlink, kmod-nfnetlink-log, kmod-nfnetlink-queue, kmod-nft-arp, kmod-nft-bridge, kmod-nft-core, kmod-nft-nat, kmod-nft-nat6, kmod-nft-netdev, kmod-nft-offload, kmod-tun, kmod-udptunnel4, kmod-udptunnel6, kmod-veth, kmod-vxlan
 Section: base
 Architecture: x86_64
-Installed-Size: 41464907
-Filename: docker-binary-x86_64_18.06.3-ce-1_x86_64.ipk
-Size: 41294892
-SHA256sum: 3350f0424129414fc0646dcf38b30e9e7ed720a4df063ce34c8f7330e70c203e
+Installed-Size: 41464933
+Filename: docker-binary-x86_64_18.06.3-ce-4_x86_64.ipk
+Size: 41294833
+SHA256sum: 10c40a982bfffa55fa8e73893e0b3250ca0f9fdf98d692f9f62a9cf437b8e026
 Description:  Docker daemon (pre-compiled static binary)
 
 Package: fstools

@@ -34459,10 +34459,10 @@ Depends: libc, libssp, librt, libpthread, python-openssl, python-email, python-x
 License: Unlicense
 Section: multimedia
 Architecture: x86_64
-Installed-Size: 2140523
+Installed-Size: 2140363
 Filename: youtube-dl_2018.03.10-1_x86_64.ipk
-Size: 2141817
-SHA256sum: 7a69467db46cdfbe73b2e6ef04e9a0aba3ed1635d17b5287afd2f0131d5e56f2
+Size: 2141691
+SHA256sum: 0ec1d0ef46b1940dd7f575e3d277c56117978fab16d69aee615942d4bfedcef9
 Description:  youtube-dl is a small command-line program to download videos 
  from YouTube.com and a few more sites. 
  It requires the Python interpreter.

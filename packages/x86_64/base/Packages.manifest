@@ -1371,15 +1371,17 @@ SHA256sum: c50f7b0a206ef96008909565cab8308a7d80d91e76e24d25324f361db49a7036
 Description:  dmesg  is used to examine or control the kernel ring buffer
 
 Package: dnsforwarder
-Version: 6-1
-Depends: libc, libssp, librt, libpthread, wget, ipset, dnsmasq-full, libpthread, coreutils-base64
-Source: /home/wang/Desktop/openwrt/package/openwrt-dnsforwarder
+Version: 6.1.15-10
+Depends: libc, libssp, librt, libpthread, wget, dnsmasq-full, libpthread, coreutils-base64
+Source: /home/wang/Desktop/lede-lean/package/lean/dnsforwarder
+License: GPL-3.0
 Section: net
+Maintainer: Dennis <openwrt@tossp.com>
 Architecture: x86_64
-Installed-Size: 110841
-Filename: dnsforwarder_6-1_x86_64.ipk
-Size: 111720
-SHA256sum: fd659573c147607c24946a625221dd8ce78647a605e874429521eac654cf6972
+Installed-Size: 84918
+Filename: dnsforwarder_6.1.15-10_x86_64.ipk
+Size: 85866
+SHA256sum: be268aba3ee50ad25ac9487d8a6eb781bdab70c605c07ee89498ca0058029e49
 Description:  Forwarding queries to customized domains (and their subdomains) to specified servers over a specified protocol (UDP or TCP). non-standard ports are supported.
 
 Package: dnsmasq-full
